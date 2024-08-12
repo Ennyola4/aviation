@@ -8,6 +8,9 @@ import imageSeven from '../images/imageSeven.jpg'
 import imageEight from '../images/imageEight.jpg'
 import imageNine from '../images/imageNine.jpg'
 import About from '../components/About'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+
 
 
 
@@ -20,6 +23,9 @@ const Home = () => {
       <Services titleOne = "Ticketing" titleTwo = "Hotel Reservation" titleThree = "Flight booking" imageFour = {imageFour} imageFive = {imageFive} imageSix = {imageSix} title="Our Services"/>
       <Services titleOne = "Passport" titleTwo = "Branches" titleThree = "Review" imageFour = {imageSeven} imageFive = {imageEight} imageSix = {imageNine}/>
       <About/>
+      <Contact/>
+      <Footer/>
+      
     </div>
   )
 }

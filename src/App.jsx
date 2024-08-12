@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import './App.css'
+import Error from './pages/Error'
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
           <Route path='/about' element={<About/>} />
           <Route path='/services' element={<Services/>} />
           <Route path='/contact' element={<Contact/>} />
-          <Route path='*' element={<h1>This page cannot be found</h1>} />
+          <Route path='*' element={<Error/>}/>
         </Routes>
       </Router>
     </div>

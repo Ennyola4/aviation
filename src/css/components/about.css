@@ -4,7 +4,7 @@ img{
 }
 
 .about-overall-container{
-    background: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,.7)), url('../../images/imageEleven.jpg') no-repeat fixed center center;
+    background: linear-gradient(rgba(0,0,0.6), rgba(0,0,0,.6)), url('../../images/imageEleven.jpg') no-repeat fixed center center;
     background-size: contain;
     color: #fff;
 }

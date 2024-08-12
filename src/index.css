@@ -3,3 +3,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.contact-overall-container{
+  height: 50vh;
+}
+
+.coloured{
+  height: 40vh;
+  width: 50vw;
+}
+
+.white{
+  height: 40vh;
+  width: 70vw;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* Base styles for mobile devices */
+body {
+  font-size: 16px;
+}
+
+/* For tablets and up */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* For desktops and up */
+@media (min-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+
