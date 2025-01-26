@@ -2,49 +2,68 @@ import {useEffect} from 'react'
 import aos from 'aos'
 import 'aos/dist/aos.css'
 import 'aos/dist/aos.js'
+import imageOne from '../images/imageOne.jpg'
+import imageFour from '../images/imageFour.jpg'
+import imageFive from '../images/imageFive.jpg'
 
 
 
-const Services = (props) => {
-  
-
-  useEffect(() =>{
-    aos.init({
-      duration: 1000
-    })
-  },[])
-  
+const Card = () => {
+    useEffect(() =>{
+        aos.init({
+          duration: 1000
+        })
+      },[])
   return (
-    <div className='container my-5'>
-        <h3 className='text-center my-4'>{props.title}</h3>
-        <div className='d-flex'>
-        <div className='card mx-2'data-aos="fade-up">
-        <img src={props.imageFour} className='card-img-top' alt="about-aircraft" style={{height : '30vh'}}/>
+   <div>
+     <div className='card-container mt-5'>
+      <div className='card 'data-aos="zoom-out">
+      <img src={imageFive} className='card-img-top'  alt="about-us"/>
         <div className='card-body'>
-            <h5 className='card-title'>{props.titleOne}</h5>
-            <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
-        </div>
-      </div> 
-      <div className='card mx-2' data-aos="fade-up">
-        <img src={props.imageFive} className='card-img-top' alt="about-aircraft" style={{height : '30vh'}}/>
-        <div className='card-body'>
-            <h5 className='card-title'>{props.titleTwo}</h5>
-            <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
-        </div>
-      </div> 
-      <div className='card mx-2' data-aos="fade-up">
-        <img src={props.imageSix} className='card-img-top' alt="about-aircraft" style={{height : '30vh'}}/>
-        <div className='card-body'>
-            <h5 className='card-title'>{props.titleThree}</h5>
-            <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
+           <div className='card-title'>
+           <h3>Bridal Makeup</h3>
+            <div className='card-text'>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis facilis iure natus nam sint eos quam at exercitationem dolorum illum placeat aperiam fugit quidem deserunt, asperiores veniam molestiae, quos labore.</p>
+               
+            </div>
+           </div>
         </div>
       </div>
+
+      <div className='card' data-aos="zoom-out">
+      <img src={imageOne} className='card-img-top' alt="about-us"/>
+        <div className='card-body'>
+           <div className='card-title'>
+           <h3>Event Makeup</h3>
+            <div className='card-text'>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis facilis iure natus nam sint eos quam at exercitationem dolorum illum placeat aperiam fugit quidem deserunt, asperiores veniam molestiae, quos labore.</p>
+                
+            </div>
+           </div>
         </div>
+      </div>
+
+      <div className='card'  data-aos="zoom-out">
+      <img src='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_640.jpg' className='card-img-top' alt="about-us"/>
+        <div className='card-body'>
+           <div className='card-title'>
+           <h3>Photoshoot Makeup</h3>
+            <div className='card-text'>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis facilis iure natus nam sint eos quam at exercitationem dolorum illum placeat aperiam fugit quidem deserunt, asperiores veniam molestiae, quos labore.</p>
+                <a href="/Services" className='btn btn-danger'> View more...</a>
+            </div>
+            
+           </div>
+           
+        </div>
+        
+      </div>
+
+      
     </div>
+    
+   </div>
   )
 }
 
-export default Services
+export default Card

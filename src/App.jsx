@@ -7,11 +7,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import './App.css'
 import Error from './pages/Error'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
+
+
+
 
 
 const App = () => {
+  
   return (
-    <div>
+    <div> 
       <Router>
         <Navbar/>
         <Routes>
@@ -22,6 +30,7 @@ const App = () => {
           <Route path='*' element={<Error/>}/>
         </Routes>
       </Router>
+     
     </div>
   )
 }

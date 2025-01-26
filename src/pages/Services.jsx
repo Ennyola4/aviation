@@ -1,9 +1,12 @@
 import React from 'react'
+import Card from './Card'
+import '../css/components/card.css'
 
 const Services = () => {
   return (
-    <div>
-      <h1>Services</h1>
+    <div className='bg-dark'>
+      <h2 className='text-white text-center pt-5'>Our services</h2> 
+      <Card/>
     </div>
   )
 }
