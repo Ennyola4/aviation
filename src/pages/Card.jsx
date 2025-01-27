@@ -119,7 +119,7 @@ const Card = () => {
            <h3>Eyebrow Shaping and Tinting</h3> <hr />
             <div className='card-text'>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis facilis iure natus nam sint eos quam at exercitationem dolorum illum placeat aperiam fugit quidem deserunt, asperiores veniam molestiae, quos labore.</p>
-                <a href="/Services" className='btn btn-outline-dark'> UP</a>
+                <a href="#" className='btn btn-outline-dark'> UP</a>
             </div>
            </div>
         </div>
