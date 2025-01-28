@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaFacebook } from "react-icons/fa6"
+import { FaSquareXTwitter } from "react-icons/fa6"
+import { LuInstagram } from "react-icons/lu"
 
 
 const Navbar = () => {
@@ -25,8 +28,15 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link to="contact" className="nav-link">Contact us</Link >
               </li>
-            </ul>
+            </ul> <br />
+            <div className='d-flex justify-content-center'>
+                              <a href = "#"className='me-2  btn btn-primary'style={{borderRadius : '100%'}} ><FaFacebook /></a>
+                              <a href="https://x.com/home" className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><FaSquareXTwitter /></a>
+                              <div className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><i className="bi bi-tiktok" ></i></div>
+                              <div className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><LuInstagram /></div>
+              </div>
           </div>
+           
         </div>
        </nav>
     </div>

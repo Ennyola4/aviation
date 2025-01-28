@@ -2,6 +2,8 @@ import React from 'react'
 import { FaFacebook } from "react-icons/fa6"
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { LuInstagram } from "react-icons/lu"
+import '../css/components/footer.css'
+
 
 
 
@@ -17,12 +19,12 @@ const Footer = () => {
                   <p>
                     Made with ByDesign
                   </p>
-                 <div className='d-flex'>
+                 {/* <div className='d-flex'>
                     <div className='me-4 btn btn-primary' style={{borderRadius : '100%'}}><FaFacebook /></div>
-                    <a href="https://x.com/home" className='me-4 btn btn-dark' style={{borderRadius : '100%'}}><FaSquareXTwitter /></a>
-                    <div className='me-4 btn btn-dark' style={{borderRadius : '100%'}}><i className="bi bi-tiktok"></i></div>
-                    <div className='me-4 btn btn-dark' style={{color : '#ffe69c',borderRadius : '100%'}}><LuInstagram /></div>
-                 </div>
+                    <a href="https://x.com/home" className='me-4 btn btn-dark' ><FaSquareXTwitter /></a>
+                    <div className='me-4 btn btn-dark' ><i className="bi bi-tiktok"></i></div>
+                    <div className='me-4 btn btn-dark' ><LuInstagram /></div>
+                 </div> */}
              </div>
 
              <div>
@@ -53,8 +55,8 @@ const Footer = () => {
                     <li><a href="#">Email us</a></li>
                     <li><a href="#">Terms &amp; Conditions</a></li>
                     <li><a href="#">Help Center</a></li> <br /> 
-                    <input type="text" style={{height : '4vh'}} /> <br /> <br />
-                    <a href="#" className='btn btn-outline-light' style={{height : '5vh'}}>Search</a>
+                    {/* <input type="text" style={{height : '4vh'}} /> <br /> <br />
+                    <a href="#" className='btn btn-outline-light' style={{height : '5vh'}}>Search</a> */}
                 </ul>
               </div>
          

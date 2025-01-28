@@ -3,9 +3,10 @@ import MotionBackground from './MotionBackground'
 
 
 
+
 const Contact = () => {
   return (
-    <div className='contact-overall-container' style={{height:'80vh'}}> <br />
+    <div className='contact-overall-container' style={{height:'70vh'}}> <br />
     <MotionBackground/>
     <h2 className='text-center text-white' >Contact us</h2> <br /> <br /><br /><br /><br />
       <div className='d-flex align-item-center justify-content-center'>
