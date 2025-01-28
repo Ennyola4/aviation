@@ -22,7 +22,7 @@ const Contact = () => {
             <h1>Let's Talk</h1>
             <p>Share your excitment with us</p>
             <a href="mailto:info@yummygum.com" className='text-decoration-none text-white'>info@yummygum.com</a> <br /> <br />
-            <a href="/Contact" className='btn btn-outline-light'>View more..</a>
+            <a href="#" className='btn btn-outline-light'>View more..</a>
             
           </div>
 

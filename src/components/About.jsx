@@ -35,7 +35,7 @@ const About = () => {
               <p>✨ Personalized Experience: Every client is unique, and so are your beauty needs. We take the time to understand your style, preferences, and the look you want to achieve, ensuring that your makeup reflects your personality.</p>
 
               <p>✨ Expert Artists: Our skilled team is trained in the latest trends and techniques, from classic elegance to bold, modern looks. With a keen eye for detail and a passion for perfection, we ensure you look flawless from every angle.</p>
-              <a href="/About" className='btn btn-outline-light'>View more...</a>
+              <a href="#" className='btn btn-outline-light'>View more...</a>
           
               
             </div>
