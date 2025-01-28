@@ -30,10 +30,10 @@
 }
 
 /* Social media icons  */
-.footer-container .d-flex .btn {
+.footer-container .d-flex .btn a {
     width: 40px;
     height: 40px;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
@@ -48,10 +48,11 @@
     flex-wrap: wrap;
 } */
 
-.footer-container .d-flex > div {
+.footer-container .d-flex > div a{
     flex: 1;
     margin: 10px;
     min-width: 200px;
+    float: left;
 }
 
 /* Make sure the 'text-center' div is always centered */

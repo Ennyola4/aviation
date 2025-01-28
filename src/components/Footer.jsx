@@ -63,8 +63,19 @@ const Footer = () => {
             </div>
             <div className='text-center'>
                <h6>Created And Designed by Zues✨</h6> <hr />
+               <div className=' justify-content-center'>
+                                             <a href = "#"className='me-2  btn btn-primary'style={{borderRadius : '100%'}} ><FaFacebook /></a>
+                                             <a href="https://x.com/home" className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><FaSquareXTwitter /></a>
+                                             <a href = "#"className='me-2  btn btn-primary'style={{borderRadius : '100%'}} ><FaFacebook /></a>
+                                             <a href="https://x.com/home" className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><FaSquareXTwitter /></a>
+                                             {/* <div className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><i className="bi bi-tiktok" ></i></div>
+                                             <div className='me-2 btn btn-dark' style={{borderRadius : '100%'}} ><LuInstagram /></div> */}
+                  </div>
+               
             </div>
+            
         </div>
+        
     </div>
   )
 }
