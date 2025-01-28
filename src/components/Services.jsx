@@ -3,7 +3,7 @@ import aos from 'aos'
 import 'aos/dist/aos.css'
 import 'aos/dist/aos.js'
 import imageOne from '../images/imageOne.jpg'
-import imageFour from '../images/imageFour.jpg'
+// import imageFour from '../images/imageFour.jpg'
 import imageFive from '../images/imageFive.jpg'
 
 
