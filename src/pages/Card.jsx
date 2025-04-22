@@ -1,7 +1,4 @@
 import {useEffect} from 'react'
-import { FaFacebook } from "react-icons/fa6"
-import { FaSquareXTwitter } from "react-icons/fa6"
-import { LuInstagram } from "react-icons/lu"
 import aos from 'aos'
 import 'aos/dist/aos.css'
 import 'aos/dist/aos.js'
@@ -17,8 +14,8 @@ const Card = () => {
   return (
    <div>
      <div className='card-container '>
-      <div className='card mt-5' data-aos="zoom-out">
-      <img src='https://cdn.pixabay.com/photo/2021/10/07/07/41/woman-6687692_640.jpg' className='card-img-top'  alt="about-us"/>
+      <div className='card mt-5  text-white' data-aos="zoom-out">
+      <img src='https://cdn.pixabay.com/photo/2021/10/07/07/41/woman-6687692_640.jpg' className='card-img-bottom'  alt=""/>
         <div className='card-body'>
            <div className='card-title'>
            <h3>Bridal Makeup</h3> <hr />
@@ -29,7 +26,7 @@ const Card = () => {
         </div>
       </div>
 
-      <div className='card mt-5' data-aos="zoom-out">
+      <div className='card mt-5 ' data-aos="zoom-out">
       <img src='https://cdn.pixabay.com/photo/2020/02/18/11/02/make-up-4859135_640.jpg' className='card-img-top' alt="about-us"/>
         <div className='card-body'>
            <div className='card-title'>
@@ -41,7 +38,7 @@ const Card = () => {
         </div>
       </div>
 
-      <div className='card mt-5'  data-aos="zoom-out">
+      <div className='card mt-5 text-white'  data-aos="zoom-out">
       <img src='https://cdn.pixabay.com/photo/2015/05/31/11/47/makeup-791303_640.jpg' className='card-img-top' alt="about-us"/>
         <div className='card-body'>
            <div className='card-title'>

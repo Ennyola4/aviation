@@ -13,9 +13,9 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
             </button>
           <div className="collapse navbar-collapse" id="navbarNav"> 
-            <ul className="navbar-nav ms-auto align-items-center">
+            <ul className="navbar-nav mx-auto align-items-center">
               <li className="nav-item" >
-                <Link to="/" className="nav-link" aria-current="page">Home</Link >
+                <Link to="/" className="nav-link"  aria-current="page">Home</Link >
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">About us</Link >
